@@ -10,7 +10,7 @@
 }
 
 .header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: "Proza Libre", sans-serif;
   font-size: 2.25rem;
 }
 
@@ -19,23 +19,23 @@
 }
 
 .nav-links a {
-  color: #281F0D;
+  color: #f36e09;
 }
 
 .nav-links a:hover {
-  color: #f36e09;
+  color: #999;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+h2 {
+  font-family: "Sigmar One", cursive;
   color: #f36e09;
 }
 
+p {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+}
 .display-4 {
   font-size: 2.5rem;
 }
@@ -64,12 +64,14 @@ h6 {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  /* font-family: "Sigmar One", cursive; */
+  font-family: "Sigmar One", cursive;
 }
 
 .nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
 }
 
 .card-img-right {
@@ -109,19 +111,19 @@ h6 {
 
 .buy-now:hover {
   color: #f36e09;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .read-more {
   margin-left: 5px !important;
-  color: #281F0D;
-  background-color: #FFF;
-  border-color: #281F0D;
+  color: #281f0d;
+  background-color: #fff;
+  border-color: #281f0d;
 }
 
 .read-more:hover {
   color: white;
-  background-color: #281F0D;
+  background-color: #281f0d;
 }
 
 /* Stars */
@@ -141,7 +143,7 @@ h6 {
   margin-bottom: 4rem;
 }
 
-.blog-pagination>.btn {
+.blog-pagination > .btn {
   border-radius: 2rem;
 }
 
@@ -153,7 +155,7 @@ h6 {
 }
 
 .blog-post-title {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
   font-size: 2.5rem;
 }
 
@@ -170,7 +172,7 @@ h6 {
   color: #999;
   text-align: center;
   background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  border-top: 0.05rem solid #e5e5e5;
 }
 
 .blog-footer p:last-child {
