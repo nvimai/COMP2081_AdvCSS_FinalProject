@@ -1,4 +1,12 @@
 /* stylelint-disable selector-list-comma-newline-after */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #281f0d;
+}
+
 .navigation {
   position: static;
 }
@@ -36,6 +44,7 @@ p {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
     sans-serif;
 }
+
 .display-4 {
   font-size: 2.5rem;
 }
@@ -114,16 +123,28 @@ p {
   background-color: #fff;
 }
 
-.read-more {
+.love-now {
   margin-left: 5px !important;
   color: #281f0d;
   background-color: #fff;
   border-color: #281f0d;
 }
 
-.read-more:hover {
+.love-now:hover {
   color: white;
   background-color: #281f0d;
+}
+
+.love-now-inverse {
+  margin-left: 5px !important;
+  color: white;
+  background-color: #281f0d;
+  border-color: #281f0d;
+}
+
+.love-now-inverse:hover {
+  color: #281f0d;
+  background-color: white;
 }
 
 /* Stars */
@@ -132,10 +153,17 @@ p {
 }
 
 /*
- * Staff
+ * Team
  */
 .person {
   text-align: center;
+  margin: 0 2rem;
+}
+
+.team-scroller {
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
 }
 
 /* Pagination */
@@ -143,7 +171,7 @@ p {
   margin-bottom: 4rem;
 }
 
-.blog-pagination > .btn {
+.blog-pagination>.btn {
   border-radius: 2rem;
 }
 
@@ -168,13 +196,8 @@ p {
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
+  color: #fff;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #281f0d;
   border-top: 0.05rem solid #e5e5e5;
-}
-
-.blog-footer p:last-child {
-  margin-bottom: 0;
 }
