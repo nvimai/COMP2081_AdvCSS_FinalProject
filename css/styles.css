@@ -49,6 +49,21 @@ p {
   font-size: 2.5rem;
 }
 
+.product-name > a {
+  font-size: 20px;
+  font-family: "cadmanregular";
+  color: brown;
+}
+
+h4.price {
+  font-family: "cadmanregular";
+  color: red;
+}
+
+p.lead {
+  font-size: 1em;
+}
+
 @media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
@@ -73,8 +88,8 @@ p {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  /* font-family: "Sigmar One", cursive; */
   font-family: "Sigmar One", cursive;
+  background: #281f0d;
 }
 
 .nav-scroller .nav-link {
@@ -171,7 +186,7 @@ p {
   margin-bottom: 4rem;
 }
 
-.blog-pagination>.btn {
+.blog-pagination > .btn {
   border-radius: 2rem;
 }
 
