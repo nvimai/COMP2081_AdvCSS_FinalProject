@@ -454,52 +454,59 @@
       <object class="background-icon-left" data="img/coffeeTulip.svg" type="image/svg+xml" alt="coffee and tulip logo"
         height="250" width="250"></object>
       <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <form class="needs-validation" novalidate="">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">First name</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text love-now"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    </div>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                </div>
+              </div>
 
-        <div class="col-md-6 m-auto">
-          <h2 class="text-center mb-4">Contact</h2>
-          <form class="needs-validation" novalidate="">
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">First name</label>
+              <div class="mb-3">
+                <label for="username">Email</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
-                    <span class="input-group-text love-now"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="input-group-text love-now"><i class="fa fa-envelope" aria-hidden="true"></i></span>
                   </div>
-                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <input type="text" class="form-control" id="email" placeholder="Email" required="">
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-              </div>
-            </div>
 
-            <div class="mb-3">
-              <label for="username">Email</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text love-now"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <div class="mb-3">
+                <label for="message">Message</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text love-now"><i class="fa fa-comment" aria-hidden="true"></i></span>
+                  </div>
+                  <textarea type="text" class="form-control" id="message" placeholder="Leave your message"
+                    required=""></textarea>
                 </div>
-                <input type="text" class="form-control" id="email" placeholder="Email" required="">
               </div>
-            </div>
 
-            <div class="mb-3">
-              <label for="message">Message</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text love-now"><i class="fa fa-comment" aria-hidden="true"></i></span>
-                </div>
-                <textarea type="text" class="form-control" id="message" placeholder="Leave your message"
-                  required=""></textarea>
-              </div>
-            </div>
+              <hr class="mb-4" />
+              <button class="btn buy-now btn-lg btn-block" type="submit"><i class="fa fa-paper-plane"
+                  aria-hidden="true"></i>
+                Submit</button>
+            </form>
+          </div>
 
-            <hr class="mb-4" />
-            <button class="btn buy-now btn-lg btn-block" type="submit"><i class="fa fa-paper-plane"
-                aria-hidden="true"></i>
-              Submit</button>
-          </form>
+          <div class="col-md-6 mt-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712.7928055172914!2d-79.69143617227446!3d44.3886068125823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa32be77e85b3%3A0x6c8cf2d586fdea03!2sLazy%20Tulip%20Cafe!5e0!3m2!1sen!2sca!4v1576260725101!5m2!1sen!2sca"
+              width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
         </div>
       </div>
     </section>
