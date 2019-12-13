@@ -5,6 +5,7 @@ html {
 
 body {
   color: #281f0d;
+  position: relative;
 }
 
 .navigation {
@@ -118,6 +119,28 @@ p.lead {
   }
 }
 
+section {
+  position: relative;
+  padding: 35px 0;
+}
+
+.container {
+  z-index: 10;
+}
+
+/*
+ * Carousel
+ */
+.carousel-image {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-image img {
+  width: 100%;
+}
+
 /*
  * Products
  */
@@ -178,9 +201,27 @@ p.lead {
   color: #f36e09;
 }
 
+/* About us */
+#about {
+  background: #281f0d;
+  color: white;
+}
+
+.about-image {
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+}
+
 /*
  * Team
  */
+#team {
+  background: #F5F5F5;
+}
+
 .person {
   text-align: center;
   margin: 0 2rem;
@@ -190,6 +231,18 @@ p.lead {
   position: relative;
   z-index: 2;
   overflow-y: hidden;
+}
+
+.team-image {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.team-image img {
+  height: 100%;
 }
 
 /* Pagination */
@@ -204,6 +257,10 @@ p.lead {
 /*
  * Blog posts
  */
+#blog {
+  position: relative;
+}
+
 .blog-post {
   margin-bottom: 4rem;
 }
@@ -218,6 +275,16 @@ p.lead {
   color: #999;
 }
 
+.thumbnail-image {
+  overflow: hidden;
+  width: 200px;
+  height: 250px;
+}
+
+.thumbnail-image img {
+  height: 100%;
+}
+
 /*
  * Footer
  */
@@ -226,4 +293,11 @@ p.lead {
   text-align: center;
   background-color: #281f0d;
   border-top: 0.05rem solid #e5e5e5;
+}
+
+
+.background-icon-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
